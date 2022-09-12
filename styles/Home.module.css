@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
 }
 
 .footer {
@@ -126,4 +128,16 @@
   .logo img {
     filter: invert(1);
   }
+}
+.mainnav{
+}
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+
+}
+.mainnav ul li{
+  margin: 0 24px;
+  list-style: None;
+  font-weight: bold;
 }
